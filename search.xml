@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Git学习</title>
+      <link href="/2024/05/08/Git%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2024/05/08/Git%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Git常用命令"><a href="#Git常用命令" class="headerlink" title="Git常用命令"></a>Git常用命令</h2><img src="https://yunyeguming.oss-cn-hangzhou.aliyuncs.com/20240508113858.png" alt="img" style="zoom:50%;" /><h4 id="设置用户信息"><a href="#设置用户信息" class="headerlink" title="设置用户信息"></a>设置用户信息</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;顾茗&quot;</span><br><span class="line">git config --global user.email &quot;1076577535@qq.com&quot;</span><br></pre></td></tr></table></figure><h4 id="查看配置信息"><a href="#查看配置信息" class="headerlink" title="查看配置信息"></a>查看配置信息</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure><h4 id="获取Git仓库-在本地初始化Git仓库"><a href="#获取Git仓库-在本地初始化Git仓库" class="headerlink" title="获取Git仓库-在本地初始化Git仓库"></a>获取Git仓库-在本地初始化Git仓库</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><h4 id="Git工作区中文件状态"><a href="#Git工作区中文件状态" class="headerlink" title="Git工作区中文件状态"></a>Git工作区中文件状态</h4><p>两种状态</p><ol><li>untracked 未跟踪 (未被纳入版本控制)</li><li>tracked 已跟踪 (被纳入版本控制)<ol><li>Unmodified 未修改状态</li><li>Modified 已修改状态</li><li>Staged 已暂存状态</li></ol></li></ol><p>注意：这些文件的状态会随着我们执行Git的命令发生变化</p><h4 id="本地仓库操作"><a href="#本地仓库操作" class="headerlink" title="本地仓库操作"></a>本地仓库操作</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">git status  #查看文件状态</span><br><span class="line">git add     #将文件的修改加入暂存区</span><br><span class="line">git reset   #将暂存区的文件取消暂存或者是切换到指定版本</span><br><span class="line">git commit  #将暂存区的文件修改提交到版本库</span><br><span class="line">git log     #查看日志</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="/2024/04/29/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2024/04/29/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
